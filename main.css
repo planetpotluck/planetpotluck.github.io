@@ -1,0 +1,41 @@
+#social-buttons button {
+ color: white;
+}
+
+.btn-twitter {
+ background-color: #00acee;
+ border-color: #009ad5;
+}
+
+.btn-facebook {
+ background-color: #4868ac;
+ border-color: #314776;
+}
+
+.btn-pinterest {
+ background-color: #b62f26;
+ border-color: #b62f26;
+}
+
+.jumbotron {
+min-height: 300px;
+background-image: url('images/potluck2.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
+
+.jumbotronbelarus {
+min-height: 300px;
+background-image: url('images/belarus.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
+
+#Header {
+	color: white;
+	text-align: center;
+}
+
+ /*body { 
+ 	padding-top: 10px; 
+ }*/
