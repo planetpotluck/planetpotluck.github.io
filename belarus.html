@@ -4,15 +4,8 @@
     <title>Planet Potluck</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="main.css" rel="stylesheet" type="text/css">
-
-    <!--upvote/downvote link below -->
-    <script src="https://cdn.jsdelivr.net/vue/1.0.16/vue.js"></script>
-    
     <script src="jquery-3.2.1.min.js"></script>
     <script src="myscripts.js"></script>
-
-
-    
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110297441-1"></script>
@@ -44,23 +37,10 @@
        <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Random</a>
-      </li>
       <li class="nav-item">
         <a class="nav-link" href="submit.html">Submit</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Diets
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Vegetarian</a>
-          <a class="dropdown-item" href="#">Vegan</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Gluten-free</a>
-        </div>
-      </li>
+    
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -92,7 +72,6 @@
 				</ul>
 			<h3>Instructions</h3>
 				<ol>
-
 					<li>Peel the potatoes and the onion.</li>
 					<li>Finely grate one potato and the onion into a bowl and mix well. Grate the remaining potato adding them to the mixture. (Please note the secret to this recipe is how finely you grate the potatoes and onion, it should be a pulp like consistency.)</li>
 					<li>Mix well, beat the egg, season it with salt and add it to the mixture.</li>
@@ -100,7 +79,6 @@
 					<li>Heat up the pork fat on high in a skillet and use about 1 tablespoon of mixture per fritter.</li>
 					<li>Fry until golden brown on each side.</li>
 					<li>Serve immediately and enjoy with sour cream.</li>
-          
 				</ol>
 				<img src="https://i.ytimg.com/vi/yt7qvHiuk1I/hqdefault.jpg">
 				<br>
@@ -144,32 +122,12 @@
    <button type="submit" class="btn btn-primary">Submit</button>
 </form> -->
 
-
 <form action="/html/tags/html_form_tag_action.cfm" method="post">
   <div>
     <textarea name="comments" id="comments" cols="50" rows="2" style="font-family:sans-serif;font-size:1.2em;"> Please leave your comment here! </textarea>
   </div>
       <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
-<div id="app">
-  <div class="container-fluid">
-    <ul class="list-group">
-      <post v-for="post in posts" :post="post"></post>
-    </ul>
-  </div>
-</div>
-
-<!-- attempt at upvote/downvvote below-->
-
-<template id="post-template">
-  <li class="list-group-item">
-    <i class="glyphicon glyphicon-chevron-up" @click="upvote"></i>
-    <span class="label label-primary">{{ votes }}</span>
-    <i class="glyphicon glyphicon-chevron-down" @click="downvote"></i>
-    <a>{{ post.title }}</a>
-  </li>
-</template>
   
 <br>
 <br>
