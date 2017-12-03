@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 
-Vue.component('post', {
+/*Vue.component('post', {
   template: "#post-template",
   props: ['post'],
   data: function () {
@@ -51,4 +51,4 @@ var vm = new Vue({
 				votes: 10
 			}]
   }
-});
+}); */

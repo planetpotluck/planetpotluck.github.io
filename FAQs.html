@@ -31,6 +31,13 @@
 }
 </style>
 
+<style>
+  #LargeMapLink{
+    height:400px;
+    width:100%;
+  }
+</style>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110297441-1"></script>
     <script>
@@ -176,6 +183,16 @@ function myFunction(x) {
 
 <br>
 <br>
+
+<div>
+     <iframe width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=55.97379820507658~16.994999999999987&lvl=3&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+     </iframe>
+     <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=55.97379820507658~16.994999999999987&amp;sty=r&amp;lvl=3&amp;FORM=MBEDLD">View Larger Map</a>
+            &nbsp; | &nbsp;
+            <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=55.97379820507658~16.994999999999987&amp;sty=r&amp;lvl=3&amp;rtp=~pos.55.97379820507658_16.994999999999987____&amp;FORM=MBEDLD">Get Directions</a>
+    </div>
+</div>
 
 </body>
 </html>
