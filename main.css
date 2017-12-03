@@ -76,6 +76,11 @@ background-attachment: fixed;
 
 }
 
+#navbarDropdown a:hover, {
+  position:relative;
+  float: left;
+
+}
 
 #Header {
 	text-align: center;
