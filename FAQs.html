@@ -1,11 +1,19 @@
 
 <!DOCTYPE html>
   <head>
-    <title>Planet Potluck</title>
+   <title>Planet Potluck</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="main.css" rel="stylesheet" type="text/css">
     <script src="jquery-3.2.1.min.js"></script>
     <script src="myscripts.js"></script>
+
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+<!--Collapse stuff? 
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110297441-1"></script>
@@ -69,7 +77,8 @@
       </div>
     </div>
 
-    <div id="accordion" role="tablist">
+<!--
+<div id="accordion" role="tablist">
   <div class="card">
     <div class="card-header" role="tab" id="headingOne">
       <h5 class="mb-0">
@@ -85,6 +94,7 @@
       </div>
     </div>
   </div>
+
   <div class="card">
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
@@ -93,12 +103,14 @@
         </a>
       </h5>
     </div>
+
     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
         You have the option of selecting by location - click on a country on the map on the homepage. Alternatively, you can filter dishes by dietary requirement.
       </div>
     </div>
   </div>
+
   <div class="card">
     <div class="card-header" role="tab" id="headingThree">
       <h5 class="mb-0">
@@ -107,6 +119,7 @@
         </a>
       </h5>
     </div>
+
     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
         Go to the submit page and fill out the google form.
@@ -114,10 +127,21 @@
     </div>
   </div>
 </div>
+-->
+
+<div class="container">
+  <h2>Simple Collapsible</h2>
+  <a href="#demo" class="btn btn-info" data-toggle="collapse">Simple collapsible</a>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
 
 <br>
 <br>
-        
+     
     <div id='social-buttons'>
       <button class="btn btn-lg btn-twitter">Twitter</button>
       <button class="btn btn-lg btn-facebook">Facebook</button>
