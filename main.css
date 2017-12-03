@@ -104,6 +104,12 @@ background-attachment: fixed;
     line-height:150px;
 }
 
+
+li {
+  max-width: 500px;
+  text-align: justify;
+}
+
  /*body { 
  	padding-top: 10px; 
  }*/
