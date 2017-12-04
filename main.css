@@ -174,23 +174,8 @@ li {
   text-align: justify;
 }
 
-/* attempt at upvote/downvote below */
-a {
-  padding-left: 5px;
-}
+.submittext {
+  text-align: center;
+  font-weight: bold;
+} 
 
-.glyphicon {
-  opacity: 1;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-}
-
-.glyphicon:hover {
-  opacity: 0.75;
-  cursor: pointer;
-}
-
- /*body { 
- 	padding-top: 10px; 
- }*/
